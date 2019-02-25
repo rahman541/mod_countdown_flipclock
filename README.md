@@ -1,5 +1,5 @@
 # Intro
-Joomla module of (FlipClock JS)[http://flipclockjs.com/].
+Joomla module of [FlipClock JS](http://flipclockjs.com/).
 
 # Installation
 1. git clone
