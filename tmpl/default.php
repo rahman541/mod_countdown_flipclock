@@ -2,7 +2,7 @@
 // echo $hello;
 
 $modClass = 'countdowna'.$module->id;
-if ($countdownType == 'new_year'):
+if ($countdownType == 'newYear') {
 ?>
 	<div id="<?=$modClass?>" style="margin:2em;"></div>
 	<script type="text/javascript">
@@ -27,4 +27,6 @@ if ($countdownType == 'new_year'):
 			});
 		});
 	</script>
-<?php endif; ?>
+<?php } else if($countdownType == 'customDate') { ?>
+	custom
+<?php } ?>

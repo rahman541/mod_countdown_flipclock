@@ -13,6 +13,8 @@ JHtml::_('bootstrap.framework');
 $document->addScript($liburl.'flipclock.min.js');
 $document->addStyleSheet($liburl.'flipclock.css');
 
-$countdownType = $params->get('countdown_type', 'new_year');
+$countdownType = $params->get('countdownType', 'newYear');
 
 require JModuleHelper::getLayoutPath('mod_countdown_a');
+
+//var_dump($countdownType);die;
