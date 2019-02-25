@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+    <name>CountdownA</name>
+    <author>Rahman Romli</author>
+    <authorEmail>rahmanromli@gmail.com</authorEmail>
+    <creationDate>February 2018</creationDate>
+    <version>1.0.0</version>
+      <description>
+        <![CDATA[
+          <div class="bt_description">
+            <p>Display</p>
+          </div>
+        ]]>
+      </description>
+    <files>
+      <filename>mod_countdown_a.xml</filename>
+      <filename module="mod_countdown_a">mod_countdown_a.php</filename>
+      <filename>index.html</filename>
+      <filename>helper.php</filename>
+      <filename>tmpl/default.php</filename>
+      <filename>tmpl/index.html</filename>
+      <folder>admin</folder>
+      <folder>assets</folder>
+    </files>
+    <languages folder="language">
+      <language tag="en-GB">en-GB.mod_countdown_a.ini</language>
+    </languages>
+    <config>
+      <fields name="params">
+        <fieldset name="basic" label="GLOBALSETTING">
+          <field type="spacer" name="TYPE" label="FLIPCLOCK_SETTING" />
+          <field name="countdownType" type="list" default="1" label="Type" description="FlipClock type" class="bt_control">
+            <option value="newYear">Countdown: New Year</option>
+            <option value="customDate">Custom date</option>
+          </field>
+          <field name="customDate" type="text" class="countdownType_customDate" label="Date" description=""/>
+
+          <field addfieldpath="/modules/mod_countdown_a/admin/formfield" type="asset" path="modules/mod_countdown_a/admin/" />
+        </fieldset>
+      </fields>
+    </config>
+</extension>
