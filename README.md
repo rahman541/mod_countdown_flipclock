@@ -7,4 +7,4 @@ Joomla module of (FlipClock JS)[http://flipclockjs.com/].
 3. Install in joomla admin -> Extensions -> Manage -> Install
 
 # Usage
-Extensions -> Modules
+Extensions -> Modules -> CountdownA
