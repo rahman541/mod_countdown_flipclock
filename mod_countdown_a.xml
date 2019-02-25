@@ -33,7 +33,7 @@
             <option value="newYear">Countdown: New Year</option>
             <option value="customDate">Custom date</option>
           </field>
-          <field name="customDate" type="text" class="countdownType_customDate" label="Date" description=""/>
+          <field name="customDate" type="text" class="countdownType_customDate" label="Date" description="Date Format: 2019-12-31"/>
 
           <field addfieldpath="/modules/mod_countdown_a/admin/formfield" type="asset" path="modules/mod_countdown_a/admin/" />
         </fieldset>

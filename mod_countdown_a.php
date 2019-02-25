@@ -14,6 +14,7 @@ $document->addScript($liburl.'flipclock.min.js');
 $document->addStyleSheet($liburl.'flipclock.css');
 
 $countdownType = $params->get('countdownType', 'newYear');
+$customDate = $params->get('customDate', '2019-03-01');
 
 require JModuleHelper::getLayoutPath('mod_countdown_a');
 
