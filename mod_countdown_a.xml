@@ -28,11 +28,18 @@
     <config>
       <fields name="params">
         <fieldset name="basic" label="GLOBALSETTING">
+          <field name="showTitle" type="radio" class="btn-group toggle" default="0" label="Show Title" >
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+				  </field>
+          <field name="title" type="text" class="showTitle_title" label="Title"/>
+
           <field type="spacer" name="TYPE" label="FLIPCLOCK_SETTING" />
           <field name="countdownType" type="list" default="1" label="Type" description="FlipClock type" class="bt_control">
             <option value="newYear">Countdown: New Year</option>
             <option value="customDate">Custom date</option>
           </field>
+          
           <field name="customDate" type="text" class="countdownType_customDate" label="Date" description="Date Format: 2019-12-31"/>
 
           <field addfieldpath="/modules/mod_countdown_a/admin/formfield" type="asset" path="modules/mod_countdown_a/admin/" />
