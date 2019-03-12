@@ -1,0 +1,45 @@
+/* Mobile first design */
+
+.clock {
+  padding: 1px;
+  margin-bottom: 10px;
+  background: #F5F6FA;
+  /* radius border */
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+.clock-title {
+  text-align: center;
+  text-transform: capitalize;
+  margin: .1em auto;
+}
+.countdowna {
+  margin: 0 auto 2.5em auto;
+}
+
+#content .flip-clock-divider .flip-clock-label {
+  font-size: 15px;
+  /* font-size: 24px; */
+  /* color: rgb(204, 204, 204); */
+}
+
+#content .flip-clock-divider .flip-clock-label {
+  top: 101px;
+}
+.flip-clock-wrapper{
+  /* transform: scale(0.9); */
+}
+.flip-clock-label {
+  visibility: hidden;
+}
+.flip-clock-wrapper {
+  width: fit-content;
+}
+
+@media only screen and (min-width: 980px) {
+  /* For desktop */
+  .flip-clock-label {
+    visibility: visible;
+  }
+}

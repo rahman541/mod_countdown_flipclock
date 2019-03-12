@@ -1,10 +1,17 @@
 <?php defined('_JEXEC') or die;
 // echo $hello;
 
-$modClass = 'countdowna'.$module->id;
-if ($countdownType == 'newYear') {
+$modClass = 'countdowna'.$module->id; ?>
+
+<div class="clock">
+
+<?php if ($showTitle): ?>
+	<h2 class="clock-title"><?= $title ?></h2>
+<?php endif ?>
+
+<?php if ($countdownType == 'newYear') {
 ?>
-	<div id="<?=$modClass?>" style="margin:2em;"></div>
+	<div id="<?=$modClass?>" class="countdowna"></div>
 	<script type="text/javascript">
 		var clock;
 
@@ -28,7 +35,7 @@ if ($countdownType == 'newYear') {
 		});
 	</script>
 <?php } else if($countdownType == 'customDate') { ?>
-	<div id="<?=$modClass?>" style="margin:2em;"></div>
+	<div id="<?=$modClass?>" class="countdowna"></div>
 	<script type="text/javascript">
 		var clock;
 
@@ -52,3 +59,5 @@ if ($countdownType == 'newYear') {
 		});
 	</script>
 <?php } ?>
+
+</div> <!-- End .clock -->
