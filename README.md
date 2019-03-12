@@ -2,6 +2,7 @@
 Joomla module of [FlipClock JS](http://flipclockjs.com/).
 ![Frontend Preview](preview_frontend.png)
 <p align="center"><strong>Front End</strong></p>
+
 ![Backend Preview](preview_backend.png)
 <p align="center"><strong>Back End</strong></p>
 
