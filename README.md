@@ -1,9 +1,9 @@
 # Intro
 Joomla module of [FlipClock JS](http://flipclockjs.com/).
 ![Frontend Preview](preview_frontend.png)
-<p align="center">**Front End**</p>
+<p align="center"><strong>Front End</strong></p>
 ![Backend Preview](preview_backend.png)
-<p align="center">**Back End**</p>
+<p align="center"><strong>Back End</strong></p>
 
 # Installation
 1. git clone
