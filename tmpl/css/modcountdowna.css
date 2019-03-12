@@ -2,12 +2,13 @@
 
 .clock {
   padding: 1px;
-  margin-bottom: 10px;
+  margin: 0 auto;
   background: #F5F6FA;
   /* radius border */
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
+  width: fit-content;
 }
 .clock-title {
   text-align: center;
@@ -15,7 +16,8 @@
   margin: .1em auto;
 }
 .countdowna {
-  margin: 0 auto 2.5em auto;
+  margin: 0 1em 1em 1em;
+  padding: 1em 1em 2em 1em;
 }
 
 #content .flip-clock-divider .flip-clock-label {
@@ -37,7 +39,7 @@
   width: fit-content;
 }
 
-@media only screen and (min-width: 980px) {
+@media only screen and (min-width: 588px) {
   /* For desktop */
   .flip-clock-label {
     visibility: visible;
