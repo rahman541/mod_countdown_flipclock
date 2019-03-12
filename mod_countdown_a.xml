@@ -42,6 +42,11 @@
           
           <field name="customDate" type="text" class="countdownType_customDate" label="Date (ie: 2019-12-31)" description="Date Format: 2019-12-31"/>
 
+          <field name="showLabel" type="radio" class="btn-group toggle" default="0" label="Show Label (D/H/M/S)" >
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+				  </field>
+
           <field addfieldpath="/modules/mod_countdown_a/admin/formfield" type="asset" path="modules/mod_countdown_a/admin/" />
         </fieldset>
       </fields>

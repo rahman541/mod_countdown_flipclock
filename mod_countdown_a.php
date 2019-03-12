@@ -19,6 +19,7 @@ $title = $params->get('title', 'Title');
 // $countdownType = 'newYear1';
 $countdownType = $params->get('countdownType', 'newYear');
 $customDate = $params->get('customDate', '2019-03-01');
+$showLabel = $params->get('showLabel', false);
 
 require JModuleHelper::getLayoutPath('mod_countdown_a');
 

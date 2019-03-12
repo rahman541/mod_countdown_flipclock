@@ -61,3 +61,15 @@ $modClass = 'countdowna'.$module->id; ?>
 <?php } ?>
 
 </div> <!-- End .clock -->
+
+<style>
+	<?php if (! $showLabel): ?>
+		.countdowna {
+			margin-bottom: 0;
+			padding-bottom: 1em;
+		}
+		.flip-clock-label {
+			visibility: hidden;
+		}
+	<?php endif ?>
+</style>
